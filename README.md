@@ -1,82 +1,83 @@
-# Blumtod
+# بلومتود
 
-AUTO CLAIM FOR BLUM / @blum
+CLAIM خودکار برای BLUM / @blum
 
-[Click to read the readme in Indonesian](README_ID.md)
+[برای خواندن راهنمای اندونزیایی اینجا کلیک کنید](README_ID.md)
 
-# Table of Contents
-- [Blumtod](#blumtod)
-- [Table of Contents](#table-of-contents)
-- [Warning](#warning)
-- [Feature](#feature)
-- [Register ?](#register-)
-- [How to Use](#how-to-use)
-  - [Bot.py parameter feature](#botpy-parameter-feature)
-  - [About Config.json](#about-configjson)
-  - [About Proxy](#about-proxy)
-  - [Windows](#windows)
-  - [Linux](#linux)
-  - [Termux](#termux)
-- [Video Guide to Get Data](#video-guide-to-get-data)
-- [Javascript Command to Get Telegram Data for Desktop](#javascript-command-to-get-telegram-data-for-desktop)
-- [Run for 24/7](#run-for-247)
-- [Discussion](#discussion)
-- [Support My Work](#support-my-work)
-- [QnA](#qna)
-- [Thank you \< 3](#thank-you--3)
+## فهرست مطالب
+- [بلومتود](#blumtod)
+- [فهرست مطالب](#table-of-contents)
+- [هشدار](#warning)
+- [ویژگی‌ها](#feature)
+- [ثبت نام؟](#register-)
+- [نحوه استفاده](#how-to-use)
+  - [ویژگی پارامترهای Bot.py](#botpy-parameter-feature)
+  - [درباره Config.json](#about-configjson)
+  - [درباره پروکسی](#about-proxy)
+  - [ویندوز](#windows)
+  - [لینوکس](#linux)
+  - [ترموکس](#termux)
+- [راهنمای ویدئویی برای دریافت داده‌ها](#video-guide-to-get-data)
+- [دستور جاوا اسکریپت برای دریافت داده‌های تلگرام برای دسکتاپ](#javascript-command-to-get-telegram-data-for-desktop)
+- [اجرای 24/7](#run-for-247)
+- [بحث](#discussion)
+- [حمایت از کار من](#support-my-work)
+- [سوالات متداول (QnA)](#qna)
+- [تشکر](#thank-you--3)
 
-# Warning
+## هشدار
 
-All risks are borne by the user
+تمامی ریسک‌ها بر عهده کاربر است.
 
-# Feature
+## ویژگی‌ها
 
-- [x] Auto Claim
-- [x] Auto Claim Daily
-- [x] Proxy Support, see [About Proxy](#about-proxy)
-- [x] Support Multi Account
-- [x] Auto Claim Bonus Referral
-- [x] Auto Complete Task, see [About Config.json](#about-configjson)
-- [x] Auto Play Game (random input from user), see [About Config.json](#about-configjson)
+- [x] Claim خودکار
+- [x] Claim روزانه خودکار
+- [x] پشتیبانی از پروکسی، به [درباره پروکسی](#about-proxy) مراجعه کنید
+- [x] پشتیبانی از چندین حساب کاربری
+- [x] Claim خودکار پاداش ارجاع
+- [x] تکمیل خودکار وظایف، به [درباره Config.json](#about-configjson) مراجعه کنید
+- [x] بازی خودکار (ورودی تصادفی از کاربر)، به [درباره Config.json](#about-configjson) مراجعه کنید
 
-# Register ?
+## ثبت نام؟
 
-Click the following url to register : [https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc](https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc)
+برای ثبت نام روی لینک زیر کلیک کنید: [https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc](https://t.me/BlumCryptoBot/app?startapp=ref_aPYIYj1oKc)
 
-# How to Use
+## نحوه استفاده
 
-## Bot.py parameter feature
+### ویژگی پارامترهای Bot.py
 
-Here are some parameters to enable feature
+در اینجا برخی از پارامترها برای فعال کردن ویژگی‌ها آمده است:
 
-| parameter | description                                    |
-| --------- | ---------------------------------------------- |
-| --data    | set custom file data input (default: data.txt) |
+| پارامتر    | توضیحات                                            |
+| ---------- | -------------------------------------------------- |
+| --data     | تعیین فایل داده ورودی سفارشی (پیش‌فرض: data.txt)  |
 
-## About Config.json
+### درباره Config.json
 
-Here Config.json Description
-| key                | description                                                                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| interval           | value type is integer/real number <br> interval is delay between accounts                                                                         |
-| auto_complete_task | value type is bool (true/false), enable (true) to active auto complete task                                                                       |
-| auto_play_game     | value type is bool (true/false), enable (true) to active auto play game                                                                           |
-| game_point         | value type is integer/real number<br>low : minimum points earned when playing the game <br><br>high : maximal points earned when playing the game |
+توضیحات Config.json:
 
-## About Proxy
+| کلید               | توضیحات                                                                                                     |
+| ------------------ | ----------------------------------------------------------------------------------------------------------- |
+| interval           | نوع مقدار: عدد صحیح یا اعشاری <br> فاصله زمانی بین حساب‌ها                                                  |
+| auto_complete_task | نوع مقدار: بولین (true/false)، فعال (true) برای فعال کردن تکمیل خودکار وظایف                               |
+| auto_play_game     | نوع مقدار: بولین (true/false)، فعال (true) برای فعال کردن بازی خودکار                                       |
+| game_point         | نوع مقدار: عدد صحیح یا اعشاری <br> کمترین امتیاز به دست آمده هنگام بازی <br> بالاترین امتیاز به دست آمده  |
 
-Register on this site to get free proxy : [Here](https://www.webshare.io/?referral_code=dwj0m9cdi4mp)
+### درباره پروکسی
 
-You can add your proxy list in `proxies.txt` and proxy format is like example below :
+در این سایت برای دریافت پروکسی رایگان ثبت‌نام کنید: [اینجا](https://www.webshare.io/?referral_code=dwj0m9cdi4mp)
 
-Format :
+می‌توانید لیست پروکسی خود را در `proxies.txt` اضافه کنید و قالب پروکسی مانند مثال زیر است:
+
+قالب:
 
 ```
 http://host:port
 http://user:pass@host:port
 ```
 
-Example :
+مثال:
 
 ```
 http://127.0.0.1:6969
@@ -85,151 +86,149 @@ socks5://127.0.0.1:6969
 socks5://user:pass@127.0.0.1:6969
 ```
 
-## Windows 
+### ویندوز
 
-1. Make sure you computer was installed python and git.
+1. مطمئن شوید که روی کامپیوتر شما python و git نصب شده است.
    
-   Suggestion: Use python version 3.8+ (3.8 and above or latest)
+   پیشنهاد: از نسخه 3.8+ (یا بالاتر) پایتون استفاده کنید.
 
-   python site : [https://python.org](https://python.org)
+   سایت پایتون: [https://python.org](https://python.org)
    
-   git site : [https://git-scm.com/](https://git-scm.com/)
+   سایت گیت: [https://git-scm.com/](https://git-scm.com/)
 
-2. Clone this repository
+2. این مخزن را کلون کنید:
    ```shell
    git clone https://github.com/akasakaid/blumtod.git
    ```
 
-3. goto blumtod directory
+3. به دایرکتوری blumtod بروید:
    ```
    cd blumtod
    ```
 
-4. install the require library
+4. کتابخانه‌های مورد نیاز را نصب کنید:
    ```
    python -m pip install -r requirements.txt
    ```
 
-5. Edit `data.txt`, input you data token in `data.txt`, find you token in [How to Find Account Token](#how-to-find-account-token). One line for one data account, if you want add you second account add in new line!
+5. فایل `data.txt` را ویرایش کنید و توکن‌های خود را وارد کنید. توکن خود را در [نحوه یافتن توکن حساب](#how-to-find-account-token) بیابید. هر خط برای یک حساب است، اگر حساب دومی دارید، آن را در خط جدید اضافه کنید.
 
-6. execute the main program 
+6. برنامه اصلی را اجرا کنید:
    ```
    python bot.py
    ```
 
-## Linux
+### لینوکس
 
-1. Make sure you computer was installed python and git.
-   
-   Suggestion: Use python version 3.8+ (3.8 and above or latest)
+1. مطمئن شوید که python و git روی کامپیوتر شما نصب شده‌اند.
 
-   python
+   پیشنهاد: از نسخه 3.8+ (یا بالاتر) پایتون استفاده کنید.
+
+   python:
    ```shell
    sudo apt install python3 python3-pip
    ```
-   git
+
+   git:
    ```shell
    sudo apt install git
    ```
 
-2. Clone this repository
+2. این مخزن را کلون کنید:
    
    ```shell
    git clone https://github.com/akasakaid/blumtod.git
    ```
 
-3. goto blumtod directory
+3. به دایرکتوری blumtod بروید:
 
    ```shell
    cd blumtod
    ```
 
-4. Install the require library
-   
+4. کتابخانه‌های مورد نیاز را نصب کنید:
+
    ```
    python3 -m pip install -r requirements.txt
    ```
 
-5. Edit `data.txt`, input you data token in `data.txt`, find you token in [How to Find Account Token](#how-to-find-account-token). One line for one data account, if you want add you second account add in new line!
+5. فایل `data.txt` را ویرایش کنید و توکن‌های خود را وارد کنید. توکن خود را در [نحوه یافتن توکن حساب](#how-to-find-account-token) بیابید. هر خط برای یک حساب است، اگر حساب دومی دارید، آن را در خط جدید اضافه کنید.
 
-6. execute the main program 
+6. برنامه اصلی را اجرا کنید:
    ```
    python bot.py
    ```
 
-## Termux
+### ترموکس
 
-1. Make sure you termux was installed python and git.
-   
-   python
+1. مطمئن شوید که در ترموکس شما python و git نصب شده‌اند.
+
+   python:
    ```
    pkg install python
    ```
 
-   git
+   git:
    ```
    pkg install git
    ```
 
-2. Clone this repository
+2. این مخزن را کلون کنید:
    ```shell
    git clone https://github.com/akasakaid/blumtod.git
    ```
 
-3. goto blumtod directory
+3. به دایرکتوری blumtod بروید:
    ```
    cd blumtod
    ```
 
-4. install the require library
+4. کتابخانه‌های مورد نیاز را نصب کنید:
    ```
    python -m pip install -r requirements.txt
    ```
 
-5. Edit `data.txt`, input you data token in `data.txt`, find you token in [How to Find Account Token](#how-to-find-account-token). One line for one data account, if you want add you second account add in new line!
+5. فایل `data.txt` را ویرایش کنید و توکن‌های خود را وارد کنید. توکن خود را در [نحوه یافتن توکن حساب](#how-to-find-account-token) بیابید. هر خط برای یک حساب است، اگر حساب دومی دارید، آن را در خط جدید اضافه کنید.
 
-6. execute the main program 
+6. برنامه اصلی را اجرا کنید:
    ```
    python bot.py
    ```
 
-# Video Guide to Get Data
+## راهنمای ویدئویی برای دریافت داده‌ها
 
-The require data is same like [pixelversebot](https://github.com/akasakaid/pixelversebot) so you can watch same tutorial / video guide to get data !
+داده‌های مورد نیاز مانند [پیکسلورس‌بات](https://github.com/akasakaid/pixelversebot) است، بنابراین می‌توانید همان آموزش/راهنمای ویدئویی برای دریافت داده‌ها را مشاهده کنید:
 
-Here : [https://youtu.be/KTZW9A75guI](https://youtu.be/KTZW9A75guI)
+اینجا: [https://youtu.be/KTZW9A75guI](https://youtu.be/KTZW9A75guI)
 
-# Javascript Command to Get Telegram Data for Desktop
+## دستور جاوا اسکریپت برای دریافت داده‌های تلگرام برای دسکتاپ
 
 ```javascript
 copy(Telegram.WebApp.initData)
 ```
 
-# Run for 24/7 
+## اجرای 24/7
 
-You can run the script bot for 24/7 using vps / rdp. You can use `screen` application in vps linux to running the script bot in background process
+شما می‌توانید اسکریپت بات را به صورت 24/7 با استفاده از VPS یا RDP اجرا کنید. می‌توانید از برنامه `screen` در VPS لینوکس برای اجرای اسکریپت بات در پس‌زمینه استفاده کنید.
 
-# Discussion
+## بحث
 
-If you have an question or something you can ask in here : [@sdsproject_chat](https://t.me/sdsproject_chat)
+اگر سوالی دارید یا نیاز به راهنمایی دارید، می‌توانید در اینجا بپرسید: [@sdsproject_chat](https://t.me/sdsproject_chat)
 
-# Support My Work
+## حمایت از کار من
 
-To support me you can buy me a coffee via website in below
+برای حمایت از من می‌توانید از طریق لینک‌های زیر به من قهوه بخرید:
 
-- [Indonesian] https://s.id/nusanqr (QRIS)
-- [Indonesian] https://trakteer.id/fawwazthoerif/tip
-- [Global] https://sociabuzz.com/fawwazthoerif/tribe
+- [اندونزی] https://s.id/nusanqr (QRIS)
+- [اندونزی] https://trakteer.id/fawwazthoerif/tip
+- [جهانی] https://sociabuzz.com/fawwazthoerif/tribe
 
-# QnA
+## سوالات متداول (QnA)
 
-Q : Is this bot/program script required to use a proxy?
+س: آیا این بات/اسکریپت برنامه نیاز به استفاده از پروکسی دارد؟
 
-A : No, this bot/program script is not required to use a proxy.
+ج: خیر، این بات/اسکریپت برنامه نیازی به استفاده از پروکسی ندارد.
 
-Q : How can I use a proxy?
+س: چگونه می‌توانم از پروکسی استفاده کنم؟
 
-A : Simply fill in the proxies.txt file according to the format I have explained.
-
-
-# Thank you < 3
+ج: کافی است فایل `proxies.txt` را طبق قالبی
